@@ -48,3 +48,5 @@ First Digit | Company
 If the number doesn’t start with any of the numbers listed, print out a message like: “Company not found”.
 
 idInvalidCardCompanies() should return an array of companies that have mailed out cards with invalid numbers. This array should NOT contain duplicates, i.e. even if there are two invalid Visa cards, "Visa" should only appear once in the array.
+
+
