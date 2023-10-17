@@ -10,3 +10,6 @@ Context: The company that you work for suspects that credit card distributors ha
 As you progress through the steps, use the terminal and console.log() statements to check the output of your loops and functions.
 
 # Tasks
+
+1.
+In order to complete this project, you should have completed the first few sections of Introduction to JavaScript (through Learn JavaScript: Loops).
