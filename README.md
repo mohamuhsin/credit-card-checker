@@ -39,7 +39,7 @@ Here’s a visual that outlines the steps. (https://content.codecademy.com/PRO/i
 
 Currently, there are 4 accepted companies which each have unique first digits. The following table shows which digit is unique to which company:
 
-First Digit	    |     Company
+First Digit	  |     Company
 
 3                  	Amex (American Express)
 4	                  Visa
