@@ -31,4 +31,4 @@ To find out if a credit card number is valid or not, use the Luhn algorithm. Gen
  
  **4.** If the sum modulo 10 is 0 (if the sum divided by 10 has a remainder of 0) then the number is valid, otherwise, it’s invalid.
 
-Here’s a visual that outlines the steps.(https://content.codecademy.com/PRO/independent-practice-projects/credit-card-checker/diagrams/cc%20validator%20diagram%201.svg?_gl=1*y1pmkl*_ga*OTkwMzEwMjk1MC4xNjgzMTA1Mjgx*_ga_3LRZM6TM9L*MTY5NzU2NTYyMi4yMy4xLjE2OTc1Njc2NDAuNjAuMC4w) Check your function using both the provided valid and invalid numbers.
+Here’s a visual that outlines the steps. (https://content.codecademy.com/PRO/independent-practice-projects/credit-card-checker/diagrams/cc%20validator%20diagram%201.svg?_gl=1*y1pmkl*_ga*OTkwMzEwMjk1MC4xNjgzMTA1Mjgx*_ga_3LRZM6TM9L*MTY5NzU2NTYyMi4yMy4xLjE2OTc1Njc2NDAuNjAuMC4w) Check your function using both the provided valid and invalid numbers.
