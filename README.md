@@ -34,3 +34,17 @@ To find out if a credit card number is valid or not, use the Luhn algorithm. Gen
 Here’s a visual that outlines the steps. (https://content.codecademy.com/PRO/independent-practice-projects/credit-card-checker/diagrams/cc%20validator%20diagram%201.svg?_gl=1*y1pmkl*_ga*OTkwMzEwMjk1MC4xNjgzMTA1Mjgx*_ga_3LRZM6TM9L*MTY5NzU2NTYyMi4yMy4xLjE2OTc1Njc2NDAuNjAuMC4w) Check your function using both the provided valid and invalid numbers.
 
 **4.** Create another function, findInvalidCards() that has one parameter for a nested array of credit card numbers. The role of findInvalidCards() is to check through the nested array for which numbers are invalid, and return another nested array of invalid cards.
+
+5.
+After finding all the invalid credit card numbers, it’s also necessary to identify the credit card companies that have possibly issued these faulty numbers. Create a function, idInvalidCardCompanies() that has one parameter for a nested array of invalid numbers and returns an array of companies.
+
+Currently, there are 4 accepted companies which each have unique first digits. The following table shows which digit is unique to which company:
+
+First Digit	Company
+3	Amex (American Express)
+4	Visa
+5	Mastercard
+6	Discover
+If the number doesn’t start with any of the numbers listed, print out a message like: “Company not found”.
+
+idInvalidCardCompanies() should return an array of companies that have mailed out cards with invalid numbers. This array should NOT contain duplicates, i.e. even if there are two invalid Visa cards, "Visa" should only appear once in the array.
