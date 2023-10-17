@@ -42,7 +42,7 @@ Currently, there are 4 accepted companies which each have unique first digits. T
 First Digit | Company
 
 3  Amex (American Express)
-4	        Visa
+4	     Visa
 5	Mastercard
 6	Discover
 If the number doesn’t start with any of the numbers listed, print out a message like: “Company not found”.
