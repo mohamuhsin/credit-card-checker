@@ -35,8 +35,7 @@ Here’s a visual that outlines the steps. (https://content.codecademy.com/PRO/i
 
 **4.** Create another function, findInvalidCards() that has one parameter for a nested array of credit card numbers. The role of findInvalidCards() is to check through the nested array for which numbers are invalid, and return another nested array of invalid cards.
 
-5.
-After finding all the invalid credit card numbers, it’s also necessary to identify the credit card companies that have possibly issued these faulty numbers. Create a function, idInvalidCardCompanies() that has one parameter for a nested array of invalid numbers and returns an array of companies.
+**5.** After finding all the invalid credit card numbers, it’s also necessary to identify the credit card companies that have possibly issued these faulty numbers. Create a function, idInvalidCardCompanies() that has one parameter for a nested array of invalid numbers and returns an array of companies.
 
 Currently, there are 4 accepted companies which each have unique first digits. The following table shows which digit is unique to which company:
 
