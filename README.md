@@ -19,7 +19,6 @@ As you progress through the steps, use the terminal and console.log() statements
 
 You’ll use these arrays later to check if your functions are working properly.
 
-
 **3.** Create a function, validateCred() that has a parameter of an array. The purpose of validateCred() is to return true when an array contains digits of a valid credit card number and false when it is invalid. This function should NOT mutate the values of the original array.
 
 To find out if a credit card number is valid or not, use the Luhn algorithm. Generally speaking, an algorithm is a series of steps that solve a problem — the Luhn algorithm (https://en.wikipedia.org/wiki/Luhn_algorithm#Description) is a series of mathematical calculations used to validate certain identification numbers, e.g. credit card numbers. The calculations in the Luhn algorithm can be broken down as the following steps:
@@ -31,3 +30,5 @@ To find out if a credit card number is valid or not, use the Luhn algorithm. Gen
  **3.** Sum up all the digits in the credit card number.
  
  **4.** If the sum modulo 10 is 0 (if the sum divided by 10 has a remainder of 0) then the number is valid, otherwise, it’s invalid.
+
+Here’s a visual that outlines the steps.(https://content.codecademy.com/PRO/independent-practice-projects/credit-card-checker/diagrams/cc%20validator%20diagram%201.svg?_gl=1*y1pmkl*_ga*OTkwMzEwMjk1MC4xNjgzMTA1Mjgx*_ga_3LRZM6TM9L*MTY5NzU2NTYyMi4yMy4xLjE2OTc1Njc2NDAuNjAuMC4w) Check your function using both the provided valid and invalid numbers.
