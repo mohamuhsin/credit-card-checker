@@ -41,7 +41,7 @@ Currently, there are 4 accepted companies which each have unique first digits. T
 
 First Digit | Company
 
-   Amex (American Express)
+ 3  Amex (American Express)
 4	            Visa
 5	Mastercard
 6	Discover
